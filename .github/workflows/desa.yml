@@ -2,6 +2,7 @@
 name: TestCICD Pipeline
 on:
   push:
+    branches: [main]
 
 jobs:
   variables:
